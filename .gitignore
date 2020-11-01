@@ -5,4 +5,5 @@ src/tensorFlow_demo/py_model/__pycache__/
 .vscode/settings.json
 src/tensorFlow_demo/tutorials/__pycache__/
 src/tensorFlow_demo/tutorials/mnist/__pycache__/
+dist/app.rar
 手写数字识别项目文档.pdf

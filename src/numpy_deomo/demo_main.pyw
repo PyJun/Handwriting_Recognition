@@ -177,5 +177,3 @@ if __name__=='__main__':
 	app=QApplication(sys.argv)
 	palette=Palette()
 	sys.exit(app.exec_())
-	
-					

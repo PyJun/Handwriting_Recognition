@@ -2,3 +2,6 @@ src/numpy_deomo/__pycache__/
 src/numpy_deomo/py_model/__pycache__/
 src/tensorFlow_demo/__pycache__/
 src/tensorFlow_demo/py_model/__pycache__/
+.vscode/settings.json
+src/tensorFlow_demo/tutorials/__pycache__/
+src/tensorFlow_demo/tutorials/mnist/__pycache__/

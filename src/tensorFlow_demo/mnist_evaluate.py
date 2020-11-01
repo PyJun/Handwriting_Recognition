@@ -4,8 +4,10 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-import tensorflow as tf
-from tensorflow.examples.tutorials.mnist import input_data
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+from tutorials.mnist import input_data
 from py_model.MY_handwriting import load_handwriting, NoDataError
 from py_model.mnist_inference import *
 from mnist_train import *
@@ -124,4 +126,3 @@ def main(argv=None):
 
 if __name__=='__main__':
 	tf.app.run()
-	

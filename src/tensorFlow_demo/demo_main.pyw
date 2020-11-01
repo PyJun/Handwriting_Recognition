@@ -194,8 +194,3 @@ if __name__=='__main__':
 			
 		else:
 			raise NoModelError(f'模型文件：{os.path.join(FILEPATH,filename)} 不存在！')
-
-
-
-	
-					

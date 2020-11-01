@@ -3,7 +3,9 @@
 '''
 
 
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 
 INPUT_MODE=784
@@ -35,6 +37,3 @@ def inference(input_tensor,regularizer):
 		layer2=tf.matmul(layer1,weights)+biases
 		
 	return layer2
-	
-
-		

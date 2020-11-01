@@ -30,27 +30,27 @@
 
 ​	把Mnist数据集划分为，训练集和测试集，下图是数字8的一些数据图片。
 
-![](figures\data_8.jpg)
+![](figures/data_8.jpg)
 
 ​	然后用模型训练，可以得到损失函数和模型在训练集和测试集上面的准确率。
 
-​	![](figures\train.png)
+​	![](figures/train.png)
 
 ##### 2. 模型验证
 
 ​	收集一份真实手写的手机拍照图片，如下所示：
 
-![](figures\real_handwriting.jpg)
+![](figures/real_handwriting.jpg)
 
 ​	将手机拍照得到的手机图片，进行预处理后，作为未知数据集输入模型，得到对应的准确率：
 
-![](figures\evaluate.png)
+![](figures/evaluate.png)
 
 ​	可见拍照获得的一百张手写图片中，只有一张手写识别出错了，错误率仅为1%。具体可看下图
 
-![](figures\real_evaluate.png)
+![](figures/real_evaluate.png)
 
-![](figures\error.png)
+![](figures/error.png)
 
 ------
 
@@ -58,7 +58,7 @@
 
 ​	将模型封装，应用于手写数字识别，用户手画一个数字，即可识别，桌面app示例如下：
 
-![](figures\app1.png)
+![](figures/app1.png)
 
-![](figures\app2.png)
+![](figures/app2.png)
 

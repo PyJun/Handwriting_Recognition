@@ -65,7 +65,7 @@ def load_handwriting(dirpath,filename='handwriting.npz'):
 	filepath=os.path.join(dirpath,'npz')
 	file=os.path.join(filepath,filename)
 	if os.path.exists(file):
-		handwriting=np.load(file)
+		handwriting=np.load(file, allow_pickle=True)
 		return handwriting
 	else:
 		raise NoDataError(f'手写数据文件：{os.path.join(filepath,filename)} 不存在')
